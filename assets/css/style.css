@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+}
+
+#maincontainer{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#topsection{
+    background: #EAEAEA;
+    height: 120px; /*Height of top section*/
+}
+
+#topsection h1{
+    margin: 0;
+    padding-top: 15px;
+}
+
+#contentwrapper{
+    float: left;
+    width: 100%;
+}
+
+#contentcolumn{
+    margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+}
+
+#leftcolumn{
+    float: left;
+    width: 200px; /*Width of left column*/
+    margin-left: -100%;
+    background: #FFFFFF;
+    min-height:480px;
+    border-left:solid 1px black;
+    border-right:solid 1px black;
+}
+
+#footer{
+    clear: left;
+    width: 100%;
+    background: black;
+    color: #FFF;
+    text-align: center;
+    border:solid 1px black;
+}
+
+#footer a{
+    color: #FFFF80;
+}
+
+.innertube{
+    margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+    margin-top: 0;
+}
+
+/*** Menu Start ***/
+ul#menu{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+
+ul#menu li a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-weight:bold;
+    text-align: center;
+    background-image:url(../images/menu-item.jpg);
+    line-height: 2.5em;
+}
+
+ul#menu li a:hover{
+    color:black;
+}
+/*** Menu End ***/
