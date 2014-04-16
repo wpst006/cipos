@@ -82,3 +82,28 @@ ul#menu li a:hover{
     color:black;
 }
 /*** Menu End ***/
+
+/*** Form Start ***/
+.form{
+    width:100%;
+}
+
+.form .form-item{
+    margin-bottom: 15px;
+}
+
+.form .form-item label{
+    display: inline-block;
+    font-weight: bold;
+    text-align:right;
+    width:150px;
+}
+
+.form .form-item .controls{
+    width:300px;
+}
+
+.form .button-row{
+    margin-left:150px;
+}
+/*** Form End ***/
