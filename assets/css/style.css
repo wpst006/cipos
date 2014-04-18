@@ -107,3 +107,18 @@ ul#menu li a:hover{
     margin-left:150px;
 }
 /*** Form End ***/
+
+/*** Message Start ***/
+#flash-message{
+    background-image: linear-gradient(to bottom, #D9EDF7 0px, #B9DEF0 100%);
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-size: 12pt;
+}
+/*** Message End ***/
